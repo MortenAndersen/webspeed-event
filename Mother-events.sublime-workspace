@@ -1,0 +1,1028 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"grid",
+				"grid-gap\tproperty"
+			],
+			[
+				"m",
+				"margin-left\tproperty"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"fle",
+				"flex\tproperty"
+			],
+			[
+				"ord",
+				"orderby"
+			],
+			[
+				"fel",
+				"flex-flow\tproperty"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"sel",
+				"align-self\tproperty"
+			],
+			[
+				"p",
+				"personer"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"l",
+				"left\tproperty"
+			],
+			[
+				"fil",
+				"fill\tproperty"
+			],
+			[
+				"mx",
+				"max-width\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"backgro",
+				"background-repeat\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"txt",
+				"text2"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"get_optin",
+				"get_option"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"custom",
+				"custom-header"
+			],
+			[
+				"ca",
+				"caption"
+			],
+			[
+				"si",
+				"site_title"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"ac",
+				"active-trail"
+			],
+			[
+				"rem",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"da",
+				"date_now"
+			],
+			[
+				"hide",
+				"hide-end-time"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"simple",
+				"simple-grid-con"
+			],
+			[
+				"sim",
+				"simple-grid-con"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"e",
+				"echo\techo \"…\""
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"wor",
+				"workshop"
+			],
+			[
+				"array_",
+				"array_diff"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"the",
+				"the_category"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"the_",
+				"the_date"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"the_po",
+				"the_post_thumbnail"
+			],
+			[
+				"flex",
+				"flex-item"
+			],
+			[
+				"fi",
+				"file_head\tWordPress File Header"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"f",
+				"flex-end"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"S",
+				"Shangies"
+			],
+			[
+				"L",
+				"Laursen"
+			],
+			[
+				"Vat",
+				"vattaeppe"
+			],
+			[
+				"ie",
+				"item3"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"toggle",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"fonts",
+				"font-style: "
+			],
+			[
+				"backr",
+				"background: "
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fin",
+				"finish\t.finish()"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ap",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"backg",
+				"background: "
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"cont",
+				"content: "
+			],
+			[
+				"dis",
+				"display: "
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"tog",
+				"toggle\t.toggle()"
+			],
+			[
+				"o",
+				"outline"
+			],
+			[
+				"Ma",
+				"masonry"
+			],
+			[
+				"colu",
+				"column-count: "
+			],
+			[
+				"bckgro",
+				"background-position"
+			],
+			[
+				"gr",
+				"green\tSass-function"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"is_ca",
+				"is_category"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"clo",
+				"closest\t.closest()"
+			],
+			[
+				"slide",
+				"slideToggle\t.slideToggle()"
+			],
+			[
+				"pre",
+				"prepend\t.prepend()"
+			],
+			[
+				"bor",
+				"border-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "files/taxonomy.php",
+			"settings":
+			{
+				"buffer_size": 1064,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: men",
+				"Snippet: menu2"
+			],
+			[
+				"Snippet: htm",
+				"Snippet: Blank HTML Page"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: menu2"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"File: Close All"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/shortcode.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/data-alt-page.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/taxonomy.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/mother-events.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/functions.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/acf.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/single.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/files/shortcode-liste.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/plugins/mother-events/single-event.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/theme.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-oversigt.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/header.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/form.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/menu.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-banner.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/style.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/assets/js/mother.js",
+		"/Applications/MAMP/htdocs/blikroer.dk/composer.json",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/layout.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/footer.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-projekt.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/archive.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/lang.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/template/post/archive-loop.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/template/page/content-article.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/accordion.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/font.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/inc/mother-functions.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/functions.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/template/post/single-content.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/page-projekter.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-billeder.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/style.css",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/searchform.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-filer.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/img/search.svg",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/xsearchform.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/breadcrumbs.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/inc/widget.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/page.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/mother-person.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/bx-slider.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/assets/js/lightbox.js",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/lightbox.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/ikon.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/single.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/404.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/reset.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/wp.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/hamburger.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/search.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/assets/js/theme.js",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/Gruntfile.js",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/jc-submenu.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/assets/js/scroll.js",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/template/navigation/nav-mainmenu.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/index.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/template/navigation/hamburger.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/tempalte/page/content-article.php",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/scss/grid.scss",
+		"/Applications/MAMP/htdocs/mother/wp-content/themes/mother/.gitignore",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/scss/sorstyle.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/page-danske-klubber.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/inc/ydelse-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/assets/js/simple.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/scss/form.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/scss/font.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/single-event.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/inc/banner-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/scss/slider.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/sorbase/scss/banner.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/person.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/form.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/acf/acf-filer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/page-left-aside.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/post-type-ydelse.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/person-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/font.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/template-functions.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/banner-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/module.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/post-type-reference.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/single-ydelse.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/single-reference.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/acf/acf-referencer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/functions.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/page-referencer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/page/reference-loop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/page-reference.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/banner.scss",
+		"/Users/morten/Downloads/export-PRODUCTS-a233c3d6-41c0-493b-94f5-44d5f0d329ba.xml",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/js/simple.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/acf/acf-banner.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/post-type-banner.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/slider.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/layout.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/page.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/page/page-loop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/acf/acf-ydelser.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/ydelse-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/page-ydelser.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/page/ydelse-loop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/animate-element.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/logo-menu.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/grid.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/post-type.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/post/archive-loop-ydelse.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/simple.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/scss/menu.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/single.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/taxonomy-ydelse-type.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/archive.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/taxonomy.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/single-ydelse-php.twig",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/taxonomy-ydelse.php",
+		"/Applications/MAMP/htdocs/drupalmigrate/sites/default/settings.php",
+		"/Applications/MAMP/htdocs/wpplugin/wp-content/plugins/simple-news/readme.txt",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/post-shortcode.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/post/archive-loop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/sidebar/important.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/inc/optionspage.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/assets/js/fitvids.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/Gruntfile.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/css/ie.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/languages/da_DK.po",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/woocommerce.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/simpletheme/template/navigation/nav-mainmenu.php"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"z",
+			"logo-p",
+			"#f6f6f6",
+			"mother-oversigt-bokse-txt",
+			"loop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "files/taxonomy.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								1011
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1058,
+										1059
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										875,
+										876
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 144.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 114.0
+	},
+	"output.exec":
+	{
+		"height": 555.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Mother-events.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/morten/Google Drive/Granhøjen/GTS/gts/gts-drupal-theme.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 415.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,18 @@
+Timezone UTC
+
+Ny *
+Gamle *
+Kategorier
+Antal *
+Widget
+Månedsvisning
+
+Billede *
+Billet-link
+Google map
+
+Admin page
+	Visniger
+css *
+
+Visning - excerpt eller body folder ud - uden link til event
