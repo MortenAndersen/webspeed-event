@@ -10,6 +10,7 @@ function webspeed_events_create_posttype() {
     	'menu_icon' => 'dashicons-calendar-alt',
     	//'taxonomies' => array('category'),
     	'has_archive' => true,
+        'show_in_rest' => true,
     	'supports' => array(
     		'title',
     		'editor',

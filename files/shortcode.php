@@ -8,8 +8,15 @@ function webspeed_event($atts) {
   ob_start();
 
 // define attributes
-  extract(shortcode_atts(array('event_type' => 'nye', 'type' => 'kalender'), $atts));
+  extract(shortcode_atts(array(
+    'event_type' => 'nye', 
+    'type' => 'kalender',
+    'grid' => '2',
+    'gap' => '2'
+), $atts));
 
+
+require get_parent_theme_file_path('/inc/grid-gap.php');
 
 /* ------------------------------------------------------------------
     Nye eller gamle events defineres i shorcode
@@ -17,10 +24,11 @@ function webspeed_event($atts) {
 
 if ($event_type == 'gamle') {
     $compare = '<';
+    $relation = 'AND';
 } else {
     $compare = '>=';
+    $relation = 'OR';
 }
-
 /* ------------------------------------------------------------------
     Dato i dag
 ------------------------------------------------------------------ */
@@ -50,7 +58,7 @@ $args = array(
     ),
 
     'meta_query' => array(
-    'relation' => 'OR',
+    'relation' => $relation,
       array(
         'key' => 'event_slut' ,
         'compare' => $compare,
@@ -94,7 +102,7 @@ if ( $temp_header != $current_header ) {
       echo '</div>';
     }
     echo '<h3 class="event-month ' . $i . '">' .$current_header. '</h3>';
-    echo '<div class="event-month-con grid g-d-4 gap-2">';
+    echo '<div class="event-month-con grid' . $grid_class . $gap_class . '">';
 }
 
 /* ------------------------------------------------------------------
@@ -111,36 +119,39 @@ if ( $temp_header != $current_header ) {
 ------------------------------------------------------------------ */
 
 // tjek om tid skal sklules
-if( $event_option && in_array('Skjul tid', $event_option) ):
-echo '<div class="event hide-all-time">';
-elseif( $event_option && in_array('Skjul sluttid', $event_option) ):
-  echo '<div class="event hide-end-time">';
-else :
-echo '<div class="event">';
-endif;
+if( $event_option && in_array('Skjul tid', $event_option) ) {
+    $hide_time = ' hide-all-time';
+} elseif( $event_option && in_array('Skjul sluttid', $event_option) ) {
+  $hide_time = ' hide-end-time';
+} else {
+    $hide_time = ' viser-alle-tider';
+}
+
 // slut på tjek
 
-// Vis billede
-if ( has_post_thumbnail() ) {
-    echo '<div class="img-zoom">';
-    echo '<div class="overflow">';
-      simpleEvent_img();
-      echo '<div class="event-day-month">';
-        simpleEvent_day_month();
-      echo '</div>';
-    echo '</div>';
-    echo '</div>';
-}
+echo '<div class="event' . $hide_time . '">';
+
+// Billede
+event_img();
 
 echo '<div class="event-txt">';
 // Vis titel på event
 simpleEvent_title();
 
 // Vis datoer på event
-simpleEvent_showdate();
+if( have_rows('alternative_datoer') ) {
+    event_alt_dato();
+} else {
+    simpleEvent_showdate();
+}
 
 // Event label
 simleEvent_label();
+
+// Event location
+simpleEvent_location();
+
+
 
 // Kkort beskrivelse
 simpleEvent_kortBeskrivelse();

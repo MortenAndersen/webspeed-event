@@ -8,7 +8,15 @@ function webspeed_event_liste($atts) {
   ob_start();
 
 // define attributes
-  extract(shortcode_atts(array('event_type' => 'nye', 'type' => 'kalender', 'antal' => '3'), $atts));
+  extract(shortcode_atts(array(
+    'event_type' => 'nye', 
+    'type' => 'kalender', 
+    'antal' => '6',
+    'grid' => '2',
+    'gap' => '2'
+), $atts));
+
+require get_parent_theme_file_path('/inc/grid-gap.php');
 
 
 
@@ -18,8 +26,10 @@ function webspeed_event_liste($atts) {
 
 if ($event_type == 'gamle') {
     $compare = '<';
+    $relation = 'AND';
 } else {
     $compare = '>=';
+    $relation = 'OR';
 }
 
 /* ------------------------------------------------------------------
@@ -52,7 +62,7 @@ $args = array(
     ),
 
     'meta_query' => array(
-    'relation' => 'OR',
+    'relation' => $relation,
       array(
         'key' => 'event_slut' ,
         'compare' => $compare,
@@ -73,9 +83,9 @@ $args = array(
 ------------------------------------------------------------------ */
 
 $shows = get_posts($args );
-$current_header = '';
 
-echo '<div class="event-con">';
+
+echo '<div class="event-con grid' . $grid_class . $gap_class . '">';
 foreach ($shows as $post ) : setup_postdata($post);
 
 /* ------------------------------------------------------------------
@@ -86,13 +96,8 @@ foreach ($shows as $post ) : setup_postdata($post);
 $date_start = get_field('event_start', false, false);
 
 
-// Måneds inddeling -> dato
-$temp_header = date_i18n('F Y', strtotime($date_start));
 
-if ( $temp_header != $current_header ) {
-    $current_header = $temp_header;
-    //echo '<h3 class="event-month">' .$current_header. '</h3>';
-}
+
 
 /* ------------------------------------------------------------------
     Skjul dato
@@ -108,26 +113,37 @@ if ( $temp_header != $current_header ) {
 ------------------------------------------------------------------ */
 
 // tjek om tid skal sklules
-if( $event_option && in_array('Skjul tid', $event_option) ):
-echo '<div class="event hide-all-time">';
-elseif( $event_option && in_array('Skjul sluttid', $event_option) ):
-  echo '<div class="event hide-end-time">';
-else :
-echo '<div class="event">';
-endif;
+if( $event_option && in_array('Skjul tid', $event_option) ) {
+    $hide_time = ' hide-all-time';
+} elseif( $event_option && in_array('Skjul sluttid', $event_option) ) {
+  $hide_time = ' hide-end-time';
+} else {
+    $hide_time = ' viser-alle-tider';
+}
+
 // slut på tjek
 
-// Vis billede
-the_post_thumbnail('large');
+echo '<div class="event' . $hide_time . '">';
+// slut på tjek
+
+// Billede
+event_img();
 
 // Vis titel på event
 simpleEvent_title();
 
 // Vis datoer på event
-simpleEvent_showdate_year();
+if( have_rows('alternative_datoer') ) {
+    event_alt_dato();
+} else {
+    simpleEvent_showdate();
+}
 
 // Event label
 simleEvent_label();
+
+// Event location
+simpleEvent_location();
 
 // Kkort beskrivelse
 simpleEvent_kortBeskrivelse();

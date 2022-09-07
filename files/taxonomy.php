@@ -25,6 +25,9 @@ function simple_events_create_events_custom_taxonomy() {
     'show_ui' => true,
     'show_admin_column' => true,
     'query_var' => false,
+    'public' => false,
+    'show_tagcloud' => false,
+    'show_in_rest' => true,
     'rewrite' => array( 'slug' => 'type' ),
   ));
 

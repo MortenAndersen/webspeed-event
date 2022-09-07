@@ -6,29 +6,17 @@ function simpleEvent_idag(){
 	$today = $i_dag->format('Y-m-d H:i:s');
 }
 
-// Event image
-function simpleEvent_img() {
-	$content = get_the_content();
-	$link = get_field('event_alternativ_landing_page');
-
-		if(!empty($content) && empty($link)) {
-			echo '<a href="' . get_the_permalink() . '">';
-			echo '<div class="event-img">';
-				the_post_thumbnail('large');
+// Event loaction
+function simpleEvent_location(){
+	$loaction = get_field('location');
+	if ($loaction) {
+		echo '<div class="eve-icon-con grid">';
+				event_location_icon();
+			echo '<div class="eve-log-txt">';
+				echo $loaction;
 			echo '</div>';
-			echo '</a>';
-		} else if(!empty($link)) {
-			echo '<a href="' . esc_url( $link ) . '">';
-			echo '<div class="event-img">';
-				the_post_thumbnail('large');
-			echo '</div>';
-			echo '</a>';
-		}
-		else {
-			echo '<div class="event-img">';
-				the_post_thumbnail('large');
-			echo '</div>';
-		}
+		echo '</div>';
+	}
 }
 
 // Event title
@@ -52,7 +40,13 @@ function simpleEvent_eventLink(){
 // Event kort beskrivelse
 function simpleEvent_kortBeskrivelse(){
 	if( get_field('event_kort_beskrivelse') ) {
-  	echo '<div class="event-kort-tekst">' . get_field('event_kort_beskrivelse') . '</div>';
+
+  	echo '<div class="eve-icon-con grid">';
+  		event_info_icon();
+			echo '<div class="eve-kort-txt">';
+  		echo get_field('event_kort_beskrivelse');
+  		echo '</div>';
+  	echo '</div>';
 	}
 }
 
@@ -68,37 +62,7 @@ function simpleEvent_editLink(){
 	edit_post_link( __( 'Edit', 'webspeed-domain' ));
 }
 
-if ( ! function_exists ( 'simpleEvent_showdate' ) ) {
-	function simpleEvent_showdate() {
 
-			// Event dato start
-		$date_start = get_field('event_start', false, false);
-		$temp_event_start_date = date_i18n('d. F Y', strtotime($date_start));
-		$temp_event_start_day = date_i18n('d', strtotime($date_start));
-		$temp_event_start_day_month = date_i18n('d.m', strtotime($date_start));
-		$temp_event_start_time = date_i18n('H:i', strtotime($date_start));
-
-		// Event dato slut
-		$date_slut = get_field('event_slut', false, false);
-		$temp_event_slut_date = date_i18n('d. F Y', strtotime($date_slut));
-		$temp_event_slut_day = date_i18n('d', strtotime($date_slut));
-		$temp_event_slut_day_month = date_i18n('d.m', strtotime($date_slut));
-		$temp_event_slut_time = date_i18n('H:i', strtotime($date_slut));
-
-
-			echo '<div class="event-date-time">';
-		if ($temp_event_start_day === $temp_event_slut_day) :
-		  echo '<span class="event-start-day">' . $temp_event_start_day_month . ' </span> <span class="event-klokken"><img src="' . get_template_directory_uri() . '/assets/images/time.svg" alt="time" /></span> <span class="event-start-time">' . $temp_event_start_time . '</span>';
-		  echo ' <span class="event-til evnet-til-ens-start-end"> - </span> ';
-		  echo '<span class="event-end-time">' . $temp_event_slut_time . '</span>';
-		else :
-		  echo '<span class="event-start-day">' . $temp_event_start_day_month . ' </span> <span class="event-klokken"><img src="' . get_template_directory_uri() . '/assets/images/time.svg" alt="time" /></span> <span class="event-start-time">' . $temp_event_start_time . '</span>';
-		  echo ' <span class="event-til"> - </span> ';
-		  echo '<span class="event-end-day">' . $temp_event_slut_day_month . ' </span> <span class="event-klokken end-time"><img src="' . get_template_directory_uri() . '/assets/images/time.svg" alt="time" /></span> <span class="event-end-time">' . $temp_event_slut_time . '</span>';
-		endif;
-		echo '</div>';
-	}
-}
 
 // Show date med år
 if ( ! function_exists ( 'simpleEvent_showdate_year' ) ) {
@@ -106,9 +70,9 @@ if ( ! function_exists ( 'simpleEvent_showdate_year' ) ) {
 
 			// Event dato start
 		$date_start = get_field('event_start', false, false);
-		$temp_event_start_date = date_i18n('d. F Y', strtotime($date_start));
-		$temp_event_start_day = date_i18n('d', strtotime($date_start));
-		$temp_event_start_day_month = date_i18n('d.m', strtotime($date_start));
+		$temp_event_start_date = date_i18n('j. F Y', strtotime($date_start));
+		$temp_event_start_day = date_i18n('j', strtotime($date_start));
+		$temp_event_start_day_month = date_i18n('j/n', strtotime($date_start));
 		$temp_event_start_time = date_i18n('H:i', strtotime($date_start));
 		$temp_event_start_year = date_i18n('Y', strtotime($date_start));
 
@@ -116,11 +80,17 @@ if ( ! function_exists ( 'simpleEvent_showdate_year' ) ) {
 		$date_slut = get_field('event_slut', false, false);
 		$temp_event_slut_date = date_i18n('d. F Y', strtotime($date_slut));
 		$temp_event_slut_day = date_i18n('d', strtotime($date_slut));
-		$temp_event_slut_day_month = date_i18n('d.m', strtotime($date_slut));
+		$temp_event_slut_day_month = date_i18n('j.n', strtotime($date_slut));
 		$temp_event_slut_time = date_i18n('H:i', strtotime($date_slut));
 
 
-			echo '<div class="event-date-time">';
+			echo '<div class="event-date-time eve-icon-con grid">';
+			
+				event_calendar_icon();
+
+echo '<div class="eve-time-con">';
+
+
 		if ($temp_event_start_day === $temp_event_slut_day) :
 		  echo '<span class="event-start-day">' . $temp_event_start_day_month . ' </span> <span class="event-klokken"><img src="' . get_template_directory_uri() . '/assets/images/time.svg" alt="time" /></span> <span class="event-start-time">' . $temp_event_start_time . '</span>';
 
@@ -133,6 +103,7 @@ if ( ! function_exists ( 'simpleEvent_showdate_year' ) ) {
 		  echo '<span class="event-end-day">' . $temp_event_slut_day_month . ' </span> <span class="event-klokken end-time"><img src="' . get_template_directory_uri() . '/assets/images/time.svg" alt="time" /></span> <span class="event-end-time">' . $temp_event_slut_time . '</span>';
 		  echo '<span class="event-start-year"> - (' . $temp_event_start_year . ')</span>';
 		endif;
+		echo '</div>';
 		echo '</div>';
 	}
 }
@@ -147,21 +118,26 @@ function simleEvent_label(){
 // Event start date - Month and day
 function simpleEvent_day_month() {
 	$date = get_field('event_start');
-	$date_day = date("d", strtotime($date));
+	$date_day = date("j", strtotime($date));
 	$date_month = date_i18n("F", strtotime($date));
 
 	// End
 	$date_end = get_field('event_slut');
-	$date_day_end = date("d", strtotime($date_end));
+	$date_day_end = date("j", strtotime($date_end));
+	$date_month_end = date_i18n("F", strtotime($date_end));
+
+	if ($date_month == $date_month_end) {
+		$print_monthx = $date_month;
+	} else {
+		$print_monthx = $date_month . ' - ' . $date_month_end;
+	}
 
 	if ( $date_day_end > $date_day) {
 		echo '<div class="event-short-day">' . $date_day . '-' . $date_day_end . '</div>';
 	} else {
 		echo '<div class="event-short-day">' . $date_day . '</div>';
 	}
-
-
- 		echo '<div class="event-short-month">' .$date_month . '</div>';
+ 		echo '<div class="event-short-month">' .$print_monthx . '</div>';
 
 }
 
