@@ -21,7 +21,7 @@ function simpleEvent_location(){
 
 // Event title
 function simpleEvent_title(){
-	echo '<h4 class="event-title">' . get_web_title(); '</h4>';
+	echo '<h4 class="event-title">' . get_web_title() . '</h4>';
 }
 
 // Event link
