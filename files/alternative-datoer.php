@@ -3,7 +3,7 @@
 function event_alt_dato() {
 
 if( have_rows('alternative_datoer') ) {
-	echo '<div class="event-date-time">';
+	echo '<div class="event-date-time alt-date-con">';
     // Loop through rows.
     while( have_rows('alternative_datoer') ) : the_row();
 
