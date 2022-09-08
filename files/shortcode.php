@@ -12,7 +12,8 @@ function webspeed_event($atts) {
     'event_type' => 'nye', 
     'type' => 'kalender',
     'grid' => '2',
-    'gap' => '2'
+    'gap' => '2',
+    'hide_pay' => 'nej',
 ), $atts));
 
 
@@ -160,7 +161,9 @@ simpleEvent_kortBeskrivelse();
 simpleEvent_eventLink();
 
 // Link til betaling / tilmelding
-simpleEvent_payLink();
+if ($hide_pay > 'ja') {
+    simpleEvent_payLink();
+}
 
 // Edit link til event
 simpleEvent_editLink();

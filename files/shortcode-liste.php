@@ -13,7 +13,8 @@ function webspeed_event_liste($atts) {
     'type' => 'kalender', 
     'antal' => '6',
     'grid' => '2',
-    'gap' => '2'
+    'gap' => '2',
+    'hide_pay' => 'nej',
 ), $atts));
 
 require get_parent_theme_file_path('/inc/grid-gap.php');
@@ -112,7 +113,7 @@ $date_start = get_field('event_start', false, false);
     HTML - events
 ------------------------------------------------------------------ */
 
-// tjek om tid skal sklules
+// tjek om tid skal skjules
 if( $event_option && in_array('Skjul tid', $event_option) ) {
     $hide_time = ' hide-all-time';
 } elseif( $event_option && in_array('Skjul sluttid', $event_option) ) {
@@ -152,7 +153,9 @@ simpleEvent_kortBeskrivelse();
 simpleEvent_eventLink();
 
 // Link til betaling / tilmelding
-simpleEvent_payLink();
+if ($hide_pay > 'ja') {
+    simpleEvent_payLink();
+}
 
 // Edit link til event
 simpleEvent_editLink();
