@@ -16,10 +16,11 @@ if( class_exists('ACF') ) {
   require_once ('files/img.php');
   require_once ('files/alternative-datoer.php');
   require_once ('files/show-date.php');
+  require_once ('files/day-month.php');
   require_once ('files/functions.php');
   require_once ('files/posttype.php');
   require_once ('files/taxonomy.php');
-  require_once ('files/data-alt-page.php');
+  //require_once ('files/data-alt-page.php');
   require_once ('files/shortcode.php');
   require_once ('files/shortcode-liste.php');
   require_once ('files/shortcode-related.php');

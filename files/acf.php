@@ -81,7 +81,7 @@ acf_add_local_field_group(array(
 			'label' => 'Event options',
 			'name' => 'event_options',
 			'type' => 'checkbox',
-			'instructions' => 'Skjul tid på oversigter (lister) - (ikke på selve begivenheden!)',
+			'instructions' => 'Skjul tid',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
