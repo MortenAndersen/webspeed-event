@@ -16,7 +16,7 @@ if ( ! function_exists ( 'simpleEvent_showdate' ) ) {
 		$temp_event_slut_day = date_i18n('j', strtotime($date_slut));
 		$temp_event_slut_day_month = date_i18n('j/n', strtotime($date_slut));
 		$temp_event_slut_time = date_i18n('H:i', strtotime($date_slut));
-echo '<div class="eve-icon-con grid">';
+echo '<div class="eve-icon-con grid date">';
 	event_calendar_icon();
 
 			echo '<div class="event-date-time">';

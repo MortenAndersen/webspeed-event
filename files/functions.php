@@ -10,7 +10,7 @@ function simpleEvent_idag(){
 function simpleEvent_location(){
 	$loaction = get_field('location');
 	if ($loaction) {
-		echo '<div class="eve-icon-con grid">';
+		echo '<div class="eve-icon-con grid loaction">';
 				event_location_icon();
 			echo '<div class="eve-log-txt">';
 				echo $loaction;
@@ -41,7 +41,7 @@ function simpleEvent_eventLink(){
 function simpleEvent_kortBeskrivelse(){
 	if( get_field('event_kort_beskrivelse') ) {
 
-  	echo '<div class="eve-icon-con grid">';
+  	echo '<div class="eve-icon-con grid short-txt">';
   		event_info_icon();
 			echo '<div class="eve-kort-txt">';
   		echo get_field('event_kort_beskrivelse');
