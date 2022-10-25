@@ -14,6 +14,7 @@ function webspeed_event($atts) {
     'grid' => '2',
     'gap' => '2',
     'hide_pay' => 'nej',
+    'order' => 'ASC',
 ), $atts));
 
 
@@ -49,7 +50,7 @@ $args = array(
   'orderby' => 'meta_value',
   'meta_key' => 'event_start',
   'meta_type' => 'DATETIME',
-  'order' => 'ASC',
+  'order' => $order,
   'tax_query' => array(
         array (
             'taxonomy' => 'event_types',

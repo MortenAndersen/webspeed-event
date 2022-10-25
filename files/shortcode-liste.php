@@ -15,6 +15,7 @@ function webspeed_event_liste($atts) {
     'grid' => '2',
     'gap' => '2',
     'hide_pay' => 'nej',
+    'order' => 'ASC',
 ), $atts));
 
 require get_parent_theme_file_path('/inc/grid-gap.php');
@@ -52,7 +53,7 @@ $args = array(
   'orderby' => 'meta_value',
   'meta_key' => 'event_start',
   'meta_type' => 'DATETIME',
-  'order' => 'ASC',
+  'order' => $order,
   'posts_per_page' => $antal,
   'tax_query' => array(
         array (
